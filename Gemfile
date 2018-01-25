@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'https://ruby.taobao.com'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -28,7 +28,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Passenger as the app server
 # gem 'passenger'
-
+gem "passenger", ">= 5.0.25", require: "phusion_passenger/rack_handler"
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
